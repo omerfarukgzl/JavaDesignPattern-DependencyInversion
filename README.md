@@ -15,7 +15,7 @@ Bağımlılıkların tersine çevrilmesi ilkesi gereksiz kodlamaları azaltacak 
 
 Bu yaklaşımı bir sosyal medya platformuna post gönderme servisi örneği ile yanlış ve doğru kullanım akışında izâh etmeye çalışalım.
  
-## Bir Sosyal Medya Platformuna Post Atılması
+## Sosyal Medya Platformları ve Gönderi İşlemleri
 
 ### Tercih edilmeyen yaklaşım
 

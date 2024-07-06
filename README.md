@@ -27,7 +27,7 @@ Fakat bu yaklaşımda istenmeyen bazı durumlar var.
 * Sosyal medya platformlarına özel sınıflarda yer alan gönderi yayınlama fonksiyonun silinmesi/değişmesi gibi durumlar sistemin işleyiş yapısını bozacak ve bozulmalar meyadana gelen yerlerde bakım faliyetleri yürütülecektir.
 * Her platforma özel kod yazılması kod yükünü, sayısını ve bakım zorluğunu arttıracaktır.
 
-Kısacası üst sınıfın alt sınıfa bağlı olması alt sınıfta meydana gelen değişimlere duyarlı hale geelecek ve kendisi de değişim gerçekleştirmek zorunda kalacaktır.
+Kısacası üst sınıfın alt sınıfa bağlı olması alt sınıfta meydana gelen değişimlere duyarlı hale geelecek ve kendisi de değişime uğramak zorunda kalacaktır.
   
 
 ![DependencyInvenrsion1](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/02205546-ae4e-44c5-9556-4ddc77b20a58)

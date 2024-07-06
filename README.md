@@ -15,9 +15,9 @@ Bağımlılıkların tersine çevrilmesi ilkesi gereksiz kodlamaları azaltacak 
 
 Bu yaklaşımı bir sosyal medya platformuna post gönderme servisi örneği ile yanlış ve doğru kullanım akışında izâh etmeye çalışalım.
  
-# Bir Sosyal Medya Platformuna Post Atılması
+## Bir Sosyal Medya Platformuna Post Atılması
 
-## Tercih edilmeyen yaklaşım
+### Tercih edilmeyen yaklaşım
 
 Gönderi orkestrasyonu görevini üstlenen PublishService sınıfı, ilgili sosyal medya platformuna post hazırlanması ve akabinde gönderilmesi için ilgili platforma başlık ve içerik verisi gönderir. Daha sonra bu ilgii platform bu verileri alıp kendi özelinde gönderi hazırlar ve gönderiyi yayınlar.
 
@@ -31,3 +31,11 @@ Kısacası üst sınıfın alt sınıfa bağlı olması alt sınıfta meydana ge
   
 
 ![DependencyInvenrsion1](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/02205546-ae4e-44c5-9556-4ddc77b20a58)
+
+Yukarıda görüldüğü üzere örnek sosyal medya platformlarına yer verilmiştir. Bu platformalar kendi özellerinde gönderi metodlarını barındırmmaktadır. Fakat sınıflar sosyal medya sınıfı olduklarını garanti etmemekte ve gönderi metodları kontrolsüz olarak oluşturulmuştur. Kontrolsüzden kasıt ise ortak bir yapıda olmaması ve  sosyal medya sınıfı olduğunu üst sınıflara garanti edememesidir. Bu sebeple meydana gelen kontrolsüz değişimler üst sınıflarda da değişimi zorunlu kılacaktır. Böylece istenmeyen durum olan bağımlılık meydana gelecektir.
+
+
+![DependencyInvenrsion2](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/1a561077-b552-48e8-b7b7-c2374664a289)
+
+![DependencyInvenrsion3](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/6a8968f2-5600-4b98-a968-8a1846025e86)
+

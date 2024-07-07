@@ -39,3 +39,8 @@ Yukarıda görüldüğü üzere örnek sosyal medya platformu sınıflarına yer
 
 ![DependencyInvenrsion3](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/6a8968f2-5600-4b98-a968-8a1846025e86)
 
+Yukarıda yer alan gönderici servisi her platforma özel metodları barındırmaktadır. Bu durum alt seviye sosyal medya platformları ile bağımlılık oluşturmakta ve değişim etkinliklerine karşı doğrudan etki meydana getirmektedir. Dolayısıyla bu durum istenmemekte ve bağımlılığın tersine çevrilmesi için alt sınıflar soyutlanmalıdır. Doğru ve istenen yöntemi aşağıdaki örnekte anlatacağım.
+
+
+
+

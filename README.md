@@ -32,7 +32,7 @@ Kısacası üst sınıfın alt sınıfa bağlı olması alt sınıfta meydana ge
 
 ![DependencyInvenrsion1](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/02205546-ae4e-44c5-9556-4ddc77b20a58)
 
-Yukarıda görüldüğü üzere örnek sosyal medya platformu sınıflarına yer verilmiştir. Bu platformalar kendi özellerinde gönderi metodlarını barındırmmaktadır. Fakat sınıflar sosyal medya sınıfı olduklarını garanti etmemekte ve gönderi metodları kontrolsüz olarak oluşturulmuştur. Kontrolsüzden kasıt ise ortak bir yapıda olmaması ve  sosyal medya sınıfı olduğunu üst sınıflara garanti edememesidir. Bu sebeple meydana gelen kontrolsüz değişimler üst sınıflarda da değişimi zorunlu kılacaktır. Böylece istenmeyen durum olan bağımlılık meydana gelecektir.
+Yukarıda görüldüğü üzere örnek sosyal medya platformu sınıflarına yer verilmiştir. Bu platformalar kendi özellerinde gönderi metodlarını barındırmaktadır. Fakat sınıflar sosyal medya sınıfı olduklarını garanti etmemekte ve gönderi metodları kontrolsüz olarak oluşturulmuştur. Kontrolsüzden kasıt ise ortak bir yapıda olmaması ve  sosyal medya sınıfı olduğunu üst sınıflara garanti edememesidir. Bu sebeple meydana gelen kontrolsüz değişimler üst sınıflarda da değişimi zorunlu kılacaktır. Böylece istenmeyen durum olan bağımlılık meydana gelecektir.
 
 
 ![DependencyInvenrsion2](https://github.com/omerfarukgzl/JavaDesignPattern-DependencyInversion/assets/58605364/1a561077-b552-48e8-b7b7-c2374664a289)

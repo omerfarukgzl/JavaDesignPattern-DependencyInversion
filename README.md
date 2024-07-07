@@ -42,5 +42,14 @@ Yukarıda görüldüğü üzere örnek sosyal medya platformu sınıflarına yer
 Yukarıda yer alan gönderici servisi her platforma özel metodları barındırmaktadır. Bu durum alt seviye sosyal medya platformları ile bağımlılık oluşturmakta ve değişim etkinliklerine karşı doğrudan etki meydana getirmektedir. Dolayısıyla bu durum istenmemekte ve bağımlılığın tersine çevrilmesi için alt sınıflar soyutlanmalıdır. Doğru ve istenen yöntemi aşağıdaki örnekte anlatacağım.
 
 
+### Tercih edilen yaklaşım
+
+Gönderi orkestrasyonu görevini üstlenen PublishService sınıfı, ilgili sosyal medya platformuna post hazırlanması ve akabinde gönderilmesi için ilgili platforma başlık ve içerik verisi gönderir. Daha sonra bu ilgii platform bu verileri alıp kendi özelinde gönderi hazırlar ve gönderiyi yayınlar.
+
+Bu yaklaşım istenmeyen duruma nazaran doğru tercihleri ve avantajları içermektedir.
+
+* Yeni bir sosyal medya platformu entegre edildiğinde veya silidindiğinde PublishService sınıfı doğrudan etkilenmeyecek ve soyutlama sayesinde ortak bir kod yapısı ile yeni platformların entegre edilmesi veya bakım faliyetleri oldukça kolay bir hal alacaktır.
+* Sosyal medya platformaları olan alt sınıfların soyutlanması sayesinde polimorfizm gibi yaklaşımlara ön ayak olcaktır.
+  
 
 

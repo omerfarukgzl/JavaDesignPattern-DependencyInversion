@@ -50,6 +50,8 @@ Bu yaklaşım istenmeyen duruma nazaran doğru tercihleri ve avantajları içerm
 
 * Yeni bir sosyal medya platformu entegre edildiğinde veya silidindiğinde PublishService sınıfı doğrudan etkilenmeyecek ve soyutlama sayesinde ortak bir kod yapısı ile yeni platformların entegre edilmesi veya bakım faliyetleri oldukça kolay bir hal alacaktır.
 * Sosyal medya platformaları olan alt sınıfların soyutlanması sayesinde polimorfizm gibi yaklaşımlara ön ayak olcaktır.
+* Kod maliyeti azalacaktır.
+* 
   
 
 

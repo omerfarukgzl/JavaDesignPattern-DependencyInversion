@@ -53,6 +53,7 @@ Bu yaklaşım istenmeyen duruma nazaran doğru tercihleri ve avantajları içerm
 * Kod maliyeti azalacaktır.
 
 ![DependencyInversion2](https://github.com/user-attachments/assets/ada73e3c-c209-42c8-906d-eedc44751507)
+
 Sosyal Meyda sınıfları yukarıdaki arayüzden yapılandandırılmıştır.
 
 ![DependencyInversion](https://github.com/user-attachments/assets/1c71675b-50f2-4b9d-af39-3ee313046251)

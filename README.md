@@ -53,10 +53,14 @@ Bu yaklaşım istenmeyen duruma nazaran doğru tercihleri ve avantajları içerm
 * Kod maliyeti azalacaktır.
 * Arayüz kullanımı, test faliyetlerinde test edilen metodun imzasının değişmeyeceğini garanti eder. Test odaklı geliştirme yaklaşımında sınıflar oluşturulmadan davranışlar test edilebilir. 
 
-Kısaca oluşturulan sınıfların soyutlanması sayesinde avantaj sağlayan özellikler kazandırılır.
+Kısacası oluşturulan sınıfların soyutlanması programlama sürecine avantaj sağlayan özellikler kazandırır.
+
+
 ![DependencyInversion](https://github.com/user-attachments/assets/1c71675b-50f2-4b9d-af39-3ee313046251)
 
 Sosyal Meyda sınıfları aşağıdaki arayüzden yapılandandırılmıştır.
+
+
 ![DependencyInversion2](https://github.com/user-attachments/assets/ada73e3c-c209-42c8-906d-eedc44751507)
 
 

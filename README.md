@@ -72,6 +72,8 @@ Soyutlanan Social Media sınıfı türünden sosyal medya sınıflarını parame
 ![DependencyInversion3](https://github.com/user-attachments/assets/4ac57385-85a9-4a78-9eb0-f8496238be1f)
 
 
+Tüm bu işlemlerin ardından Main sınıfında ilgili sosyal medya platformları SocialMedia arayüzünden çok biçimlilik (polimorfizm) yaklaşımı ile türetilmiştir. Daha sonra post gönderme işemlerini üstelenen PublishService sınıfının nesnesi üretilmiş ve post yayınlama metoduna SocialMedia arayüzünden türetilen sosyal medya platformlarının nesneleri geçilmiştir. 
+
 ![DependencyInversion4](https://github.com/user-attachments/assets/8c7f6feb-f246-4209-aab9-b18b6381d1b1)
 
 

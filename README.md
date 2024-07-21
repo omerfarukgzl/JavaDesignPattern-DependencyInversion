@@ -64,8 +64,14 @@ Sosyal Meyda sınıfları aşağıdaki arayüzden yapılandandırılmıştır.
 ![DependencyInversion2](https://github.com/user-attachments/assets/ada73e3c-c209-42c8-906d-eedc44751507)
 
 
+Post gönderme işlemlerini yapan Publish Service sınıfı artık tavsiye edilmeyen yaklaşım gibi her platforma ayrı ayrı metod yazmak yerine soyutlama sayesinde genel bir işlev oluşturarak işlemlerini yerine getirecektir.
+
+Soyutlanan Social Media sınıfı türünden sosyal medya sınıflarını parametre alarak generic bir yapı kazandırılmıştır. Bu sayede eklenen veya silinen sosyal medya platformları bu servisi etkilemeyecektir. Soyutlama sayesinde Publish Service sınıfı Sosyal Medya sınıflarına bağımlı olmaktan kurtulmuş ve bağımlılık tersine çevrilmiştir.
+
 
 ![DependencyInversion3](https://github.com/user-attachments/assets/4ac57385-85a9-4a78-9eb0-f8496238be1f)
+
+
 ![DependencyInversion4](https://github.com/user-attachments/assets/8c7f6feb-f246-4209-aab9-b18b6381d1b1)
 
 
